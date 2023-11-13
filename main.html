@@ -1,0 +1,263 @@
+<html>
+<head>
+<title>Home Page</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+
+#btns {
+	margin: auto;
+	width:96%;
+ 	padding: 0px;
+	margin-top:0px;
+}
+
+ul#btnlist {
+	clear:both;
+	float:left;
+	padding:0;
+	list-style-type:none;
+	display:inline;
+	font-family: Verdana;
+}
+
+ul#btnlist li {
+	display:inline;
+}
+
+ul#btnlist a {
+	display:block;
+	padding:8px 150px;
+	margin:0px 20px;
+	float:left;
+	text-decoration:none;
+	color:black;
+	border:1px solid black;
+}
+
+ul#btnlist a:hover {
+	background-color:orange;
+	color:white;
+	border:1px solid black;
+}
+
+#news {
+	float:left;
+	width:69%;
+	border-right:1px solid black;
+	border-top:1px solid black;
+	padding:0px;
+	margin:0px;
+}
+
+#sidebar {
+	float:left;
+	border-top:1px solid black;
+	width:30%;
+	padding:0px 0px 0px 5px;
+	margin:0px;
+}
+
+table, td, th {
+	border:1px solid black;
+	text-align:center;
+}
+th {
+	font-size:25px;
+}
+
+#leaderboard {
+	margin:auto;
+	width:90%;
+	border-top:1px solid black;
+	border-left:1px solid black;
+	border-right:1px solid black;
+}
+
+#leaderboard p.name {
+	float:left;
+	clear:both;
+	margin:auto;
+	font-weight:bold;
+	border-bottom:1px solid black;
+	width:85%;
+}
+
+#leaderboard p.score {
+	float:right;
+	margin:auto;
+	border-left:1px solid black;
+	border-bottom:1px solid black;
+	padding:0px 10px;
+}
+
+.newstile {
+	margin:8px;
+	width:47%;
+	float:left;
+	text-align:center;
+}
+
+.newstile p {
+	margin-top:-20px;
+}
+
+.newslink {
+	color:black;
+}
+
+a.newslink:hover {
+	color:orange;
+}
+
+
+</style>
+</head>
+
+<body>
+<div id="main">
+<div id="header">
+<a href="main.html"><img style="float:left; margin-right=10px;" src="OWLLogo.webp" alt="logo" height="48" width="87"></a>
+<h1 style="color:white; float:left; margin-top:0; margin-left:10px">Fantasy League </h1>
+<p style="float:right; color:white;"><a href="login.html">Login</a> | <a href="signup.html">Sign Up</a> </p>
+
+<ul id="navlist">
+<li><a href="main.html">HOME</a></li>
+<li><a href="lobbies.html">LOBBIES</a></li>
+<li><a href="board.html">LEADERBOARD</a></li>
+<li><a href="schedule.html">SCHEDULE</a></li>
+<li><a href="news.html">NEWS</a></li>
+</ul>
+</div>
+
+<br>
+
+<div id="btns">
+<ul id="btnlist">
+<li><a href="lobbies.html">Join A Lobby</a></li>
+<li><a href="createlobby.html">Create A Lobby</a></li>
+</ul>
+</div>
+<br>
+<div style="clear:both"></div>
+
+<div id="news">
+<h1 style="margin:auto; padding:0px 10px;"> Latest News </h1>
+<br>
+<a class="newslink" href="news.html">
+<div class="newstile">
+<img style="display:block; margin:auto;" src="newstilepic.png" alt="news">
+<h1>Match Report: SEO vs CDH</h1>
+<p>The latest match report for the match between the Seoul Dynasty and the Chengdu Hunters. </p>
+</div>
+</a>
+
+<a class="newslink" href="news.html">
+<div class="newstile">
+<img style="display:block; margin:auto;" src="newstilepic.png" alt="news">
+<h1>Roster Move: Marve1 to NYXL</h1>
+<p>The New York Excelsior announces the acquisition of tank player Marve1 from the Boston Uprising. </p>
+</div>
+</a>
+
+<a class="newslink" href="news.html">
+<div class="newstile">
+<img style="display:block; margin:auto;" src="newstilepic.png" alt="news">
+<h1>Match Report: GZC vs PHL</h1>
+<p>The latest match report for the match between the Guangzhou Charge and the Philadelphia Fusion. </p>
+</div>
+</a>
+
+<a class="newslink" href="news.html">
+<div class="newstile">
+<img style="display:block; margin:auto;" src="newstilepic.png" alt="news">
+<h1>Match Report: HZS vs VAL</h1>
+<p>The latest match report for the match between the Hangzhou Spark and the Los Angeles Valiant. </p>
+</div>
+</a>
+
+<a class="newslink" href="news.html">
+<div class="newstile">
+<img style="display:block; margin:auto;" src="newstilepic.png" alt="news">
+<h1>Roster Move: Striker to ATL</h1>
+<p>The Atlanta Reign announces the acquisition of DPS player Striker from the Washington Justice. </p>
+</div>
+</a>
+
+<a class="newslink" href="news.html">
+<div class="newstile">
+<img style="display:block; margin:auto;" src="newstilepic.png" alt="news">
+<h1>Match Report: VAN vs ATL</h1>
+<p>The latest match report for the match between the Vancouver Titans and the Atlanta Reign. </p>
+</div>
+</a>
+
+<a class="newslink" href="news.html">
+<h2 style="float:right; padding:0px 20px;">More News >>></h1>
+</a>
+</div>
+
+<div id="sidebar">
+<h1 style="margin:auto; padding:0px 10px; text-align:center;"> Upcoming Matches </h1>
+
+<table style="margin:auto; width:100%;">
+<tr>
+<th> PHL vs SEO </th>
+</tr>
+<tr>
+<td>8:00pm Fri May 27</td>
+</tr>
+<tr>
+<th> CDH vs HZS </th>
+</tr>
+<tr>
+<td>9:30pm Fri May 27</td>
+</tr>
+<tr>
+<th> SHD vs GZC </th>
+</tr>
+<tr>
+<td>11:00pm Fri May 27</td>
+</tr>
+</table>
+
+<br>
+<br>
+<br>
+
+<h1 style="margin:auto; padding:0px 10px; text-align:center;"> Weekly Top Scores </h1>
+
+<div id="leaderboard">
+<p class="name">Kraith</p>
+<p class="score">32</p>
+<p class="name">TheVeranda</p>
+<p class="score">29</p>
+<p class="name">Eutogenes</p>
+<p class="score">26</p>
+<p class="name">Crunchy</p>
+<p class="score">20</p>
+<p class="name">Moose</p>
+<p class="score">14</p>
+<div style="clear:both"></div>
+</div>
+<br>
+</div>
+
+<div style="clear:both"></div>
+
+<div id="footer">
+<br>
+<br>
+<a href="https://overwatchleague.com">Overwatch League</a> • 
+<a href="contact.html">Contact Us</a> • 
+<a href="contact.html">About Us</a>
+<br>
+<br>
+<img src="OWLLogo.webp" alt="logo" height="48" width="87">
+<br>
+<p style="color:grey">©2022 Overwatch League Fantasy League</p>
+<br>
+</div>
+
+</div>
+</body>
+</html>

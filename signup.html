@@ -1,0 +1,133 @@
+<html>
+<head>
+<title>Sign Up</title>
+<link rel="stylesheet" href="styles.css">
+
+<style>
+form {
+	text-align:center;
+	height:60%;
+}
+
+label {
+ 	display: inline-block;
+ 	float: left;
+ 	clear: left;
+	width: 395px;
+	text-align: right;
+	margin:10px 5px 10px 0px;
+}
+
+input {
+	display: inline-block;
+	float: left;
+	margin:10px 0px;
+	font-family:Arial;
+	width:200px;
+}
+
+#upload {
+	font-size:12px;
+	display:inline-block;
+	margin:auto;
+	padding:1px 1px;
+	margin:10px 20px;
+	width:80px;
+	text-decoration:none;
+	color:black;
+	border:1px solid black;
+}
+
+#upload:hover {
+	background-color:orange;
+	color:white;
+	border:1px solid black;
+}
+
+#signup {
+	clear:both;
+}
+
+#signup a {
+	display:inline-block;
+	margin:auto;
+	padding:8px 10px;
+	margin:0px 20px;
+	width:100px;
+	text-decoration:none;
+	color:black;
+	border:1px solid black;
+}
+
+#signup a:hover {
+	background-color:orange;
+	color:white;
+	border:1px solid black;
+}
+
+</style>
+
+</head>
+<body>
+<div id="main">
+<div id="header">
+<a href="main.html"><img style="float:left; margin-right=10px;" src="OWLLogo.webp" alt="logo" height="48" width="87"></a>
+<h1 style="color:white; float:left; margin-top:0; margin-left:10px">Fantasy League </h1>
+<p style="float:right; color:white;"><a href="login.html">Login</a> | <a href="signup.html">Sign Up</a> </p>
+
+<ul id="navlist">
+<li><a href="main.html">HOME</a></li>
+<li><a href="lobbies.html">LOBBIES</a></li>
+<li><a href="board.html">LEADERBOARD</a></li>
+<li><a href="schedule.html">SCHEDULE</a></li>
+<li><a href="news.html">NEWS</a></li>
+</ul>
+</div>
+
+<div id="form">
+<br>
+<br>
+<br>
+<h1 style="text-align:center;">Sign Up</h1>
+<br>
+<form>
+<label for="username">Username:</label>
+<input type="text" id="username" name="username"><br>
+<label for="email">Email:</label>
+<input type="text" id="email" name="email"><br>
+<label for="password">Password:</label>
+<input type="password" id="password" name="password"><br>
+<label for="confpass">Confirm Password:</label>
+<input type="password" id="confpass" name="confpass"><br>
+<div style="clear:left"></div>
+<br><br>
+Upload a Profile Picture:
+<img style="display:block; margin:auto; margin-top:10px; height:60px; width:60px;" src="newstilepic.png" alt="news">
+<a href="signup.html" id="upload">Upload Image</a>
+<div id="signup">
+<br>
+<a href="main.html">Sign Up</a>
+</div>
+<br>
+<div>Already have an account? <a href="login.html" style="text-decoration:none;"> Login!<a></div>
+</form>
+</div>
+
+
+<div id="footer">
+<br>
+<br>
+<a href="https://overwatchleague.com">Overwatch League</a> • 
+<a href="contact.html">Contact Us</a> • 
+<a href="contact.html">About Us</a>
+<br>
+<br>
+<img src="OWLLogo.webp" alt="logo" height="48" width="87">
+<br>
+<p style="color:grey">©2022 Overwatch League Fantasy League</p>
+<br>
+</div>
+
+</div>
+</body>
+</html>
